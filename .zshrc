@@ -91,6 +91,7 @@ alias c="clear"
 alias r="ranger"
 alias v="vim"
 alias b="java -jar ~/z_briss-0.9/briss-0.9.jar -s"
+alias t=tldr
 
 
 export NVM_DIR="$HOME/.nvm"
