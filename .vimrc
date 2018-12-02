@@ -35,9 +35,9 @@ set encoding=utf-8 nobomb " BOM often causes trouble
 set esckeys " Allow cursor keys in insert mode
 set expandtab " Expand tabs to spaces
 set foldcolumn=0 " Column to show folds
-set foldenable " Enable folding
+" set foldenable " Enable folding
 set foldlevel=0 " Close all folds by default
-set foldmethod=syntax " Syntax are used to specify folds
+" set foldmethod=syntax " Syntax are used to specify folds
 set foldminlines=0 " Allow folding single lines
 set foldnestmax=5 " Set max fold nesting level
 set formatoptions=
