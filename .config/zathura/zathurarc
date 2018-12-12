@@ -9,14 +9,25 @@ set page-padding 1
 set window-height 3000
 set window-width 3000
 set zoom-step 8
-map e scroll half-up
-map d scroll half-down
-map j scroll full-down
-map k scroll full-up
-map D toggle_page_mode
-map J zoom in
-map K zoom out
-map i recolor
-map p print
-map f toggle_fullscreen
-map h toggle_statusbar
+map [normal] e scroll half-up
+map [normal] d scroll half-down
+map [normal] j scroll full-down
+map [normal] k scroll full-up
+map [normal] 2 toggle_page_mode
+map [normal] J zoom in
+map [normal] K zoom out
+map [normal] i recolor
+map [normal] p print
+map [normal] f toggle_fullscreen
+map [normal] h toggle_statusbar
+map [fullscreen] e scroll half-up
+map [fullscreen] d scroll half-down
+map [fullscreen] j scroll full-down
+map [fullscreen] k scroll full-up
+map [fullscreen] 2 toggle_page_mode
+map [fullscreen] J zoom in
+map [fullscreen] K zoom out
+map [fullscreen] i recolor
+map [fullscreen] p print
+map [fullscreen] f toggle_fullscreen
+map [fullscreen] h toggle_statusbar
