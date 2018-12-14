@@ -1,5 +1,5 @@
 set default-bg '#646464'
-
+set recolor-darkcolor \#839496
 set smooth-scroll true
 set scroll-full-overlap 0.05
 set selection-clipboard clipboard
@@ -13,7 +13,7 @@ map [normal] e scroll half-up
 map [normal] d scroll half-down
 map [normal] j scroll full-down
 map [normal] k scroll full-up
-map [normal] 2 toggle_page_mode
+map [normal] w toggle_page_mode
 map [normal] J zoom in
 map [normal] K zoom out
 map [normal] i recolor
@@ -24,7 +24,7 @@ map [fullscreen] e scroll half-up
 map [fullscreen] d scroll half-down
 map [fullscreen] j scroll full-down
 map [fullscreen] k scroll full-up
-map [fullscreen] 2 toggle_page_mode
+map [fullscreen] w toggle_page_mode
 map [fullscreen] J zoom in
 map [fullscreen] K zoom out
 map [fullscreen] i recolor
